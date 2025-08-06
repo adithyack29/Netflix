@@ -8,6 +8,7 @@
 body,
 html {
   height: 100%;
+  background-color: black;
 }
 
 .background {
@@ -125,10 +126,39 @@ select option {
   cursor: pointer;
 }
 
-footer {
-  background-color: rgb(28, 26, 26);
+.quest {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1.5rem;
   color: white;
-  padding: 90px 150px;
+  padding: 15px 20px;
+  margin-left: 125px;
+}
+
+.mainfaq {
+  color: white;
+  margin-top: 0;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.faq {
+  background-color: rgb(36, 35, 35);
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.faq h3{
+  font-weight: 750;
+}
+
+
+footer {
+  color: white;
+  padding: 50px 150px;
 }
 
 .call {
