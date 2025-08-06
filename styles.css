@@ -148,7 +148,7 @@ select option {
   background-color: rgb(36, 35, 35);
   padding: 15px 20px;
   margin-bottom: 20px;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 .faq h3{
@@ -176,6 +176,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  font-size: 0.7rem;
 }
 
 .foot a {
