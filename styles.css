@@ -133,23 +133,49 @@ select option {
   cursor: pointer;
 }
 
-.trending-now h2{
+h2 {
   margin-top: 30px;
   margin-left: 70px;
 }
 
-.trend {
+.trending-now {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: nowrap;
   margin-top: 20px;
   margin-left: 50px;
-  gap: 1px;
+  position: relative;
+}
+
+.trend {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 50px;
+  position: relative;
+  width: 200px;
 }
 
 .trend img {
   border-radius: 25px;
 }
+
+.trend img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.over {
+  position: absolute;
+  font-size: 1.8rem;
+  margin-top: 230px;
+  z-index: 1;
+  left: 10px;
+}
+
+.over:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .quest {
   text-align: left;
   margin-top: 30px;
