@@ -248,6 +248,12 @@ footer {
     font-size: 0.9rem;
   }
 
+  .content h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
   .email-form input {
     width: 100%;
     max-width: none;
@@ -264,9 +270,10 @@ footer {
   }
 
   .trend {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .over {
@@ -275,7 +282,9 @@ footer {
   }
 
   .quest {
-    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 40px;
   }
 
   .mainfaq {
@@ -312,24 +321,20 @@ footer {
   }
 
   .lang-signin select {
-    width: 150%;
-    font-size: 0.6rem;
-    margin-left: 0;
+    width: 170%;
+    font-size: 0.5rem;
+    margin-right: 10px;
+    padding: 7px 10px;
   }
 
   .signin-btn {
-    width: 120%;
+    width: 150%;
     max-width: 150px;
     font-size: 0.6rem;
-    margin-top: 0;
-    margin-right: 20px;
-    
+    margin-top: 1px;
   }
 
   .overlay {
     background: rgba(0, 0, 0, 0.85);
   }
-
-
-
-}
+} 
