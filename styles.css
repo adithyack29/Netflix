@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body,
@@ -161,8 +161,8 @@ h2 {
 
 .over {
   position: absolute;
-  font-size: 1.8rem;
-  margin-top: 230px;
+  font-size: 1rem;
+  margin-top: 240px;
   z-index: 1;
   left: 10px;
 }
@@ -231,4 +231,105 @@ footer {
 
 .foot a {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .header img {
+    width: 150px;
+    margin-right:0;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content h2,
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .email-form input {
+    width: 100%;
+    max-width: none;
+  }
+
+  .email-form button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .trending-now {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .trend {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .over {
+    font-size: 1rem;
+    margin-top: 230px;
+  }
+
+  .quest {
+    margin-left: 20px;
+  }
+
+  .mainfaq {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .faq {
+    font-size: 0.8rem;
+  }
+
+  .mainfoot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot {
+    align-items: center;
+  }
+
+  .foot a {
+    font-size: 0.8rem;
+  }
+
+  .call {
+    font-size: 0.8rem;
+  }
+
+  .lang-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .lang-signin select {
+    width: 150%;
+    font-size: 0.6rem;
+    margin-left: 0;
+  }
+
+  .signin-btn {
+    width: 120%;
+    max-width: 150px;
+    font-size: 0.6rem;
+    margin-top: 0;
+    margin-right: 20px;
+    
+  }
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+
+
 }
