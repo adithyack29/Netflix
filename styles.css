@@ -264,6 +264,11 @@ footer {
     max-width: none;
   }
 
+  h2{
+    margin-left: 110px;
+    font-size: 1.5rem;
+  }
+
   .trending-now {
     flex-wrap: wrap;
     justify-content: center;
