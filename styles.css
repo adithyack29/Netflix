@@ -236,7 +236,7 @@ footer {
 @media (max-width: 768px) {
   .header img {
     width: 150px;
-    margin-right:0;
+    margin-right: 0;
   }
 
   .content h1 {
@@ -264,7 +264,7 @@ footer {
     max-width: none;
   }
 
-  h2{
+  h2 {
     margin-left: 88px;
     font-size: 1.5rem;
   }
@@ -343,4 +343,4 @@ footer {
   .overlay {
     background: rgba(0, 0, 0, 0.85);
   }
-} 
+}
