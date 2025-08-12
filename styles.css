@@ -305,16 +305,8 @@ footer {
   }
 
   h2 {
-    margin-left: 88px;
-    font-size: 1rem;
-  }
-
-  .reasons {
-    margin-top: 5px;
-  }
-
-  .reason {
-    margin-bottom: 1px;
+    margin-left: 90px;
+    font-size: 1.3rem;
   }
 
   .trending-now {
@@ -337,13 +329,18 @@ footer {
 
   .reasons-h2 {
     margin-left: 45px;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .reasons {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .reason {
+    margin-bottom: 1px;
   }
 
   .quest {
