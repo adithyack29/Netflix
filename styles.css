@@ -305,7 +305,7 @@ footer {
   }
 
   h2 {
-    text-align: center;
+    margin-left: 88px;
     font-size: 1.3rem;
   }
 
@@ -328,7 +328,7 @@ footer {
   }
 
   .reasons-h2 {
-    text-align: left;
+    margin-left: 45px;
     font-size: 1.3rem;
   }
 
