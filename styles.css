@@ -313,6 +313,10 @@ footer {
     margin-top: 5px;
   }
 
+  .reason {
+    margin-bottom: 1px;
+  }
+
   .trending-now {
     flex-wrap: wrap;
     justify-content: center;
