@@ -175,12 +175,9 @@ h2 {
 .reasons {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 30px;
   margin-left: 100px;
-  margin-right: 100px;
-  gap: 15px;
+  margin-right: 200px;
 }
 
 .reason {
@@ -192,9 +189,9 @@ h2 {
   margin-bottom: 30px;
   margin-left: 50px;
   padding: 20px;
-  width: 350px;
   height: 500px;
-  border: 1px solid white;
+  border: 1px solid black;
+  background: linear-gradient(135deg, rgba(0, 12, 104, 0.6), rgba(103, 0, 62, 0.8));
 }
 
 .reason h3 {
