@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter, Consolas, 'Courier New', monospace", sans-serif;
 }
 
 body,
@@ -177,7 +177,7 @@ h2 {
   flex-direction: row;
   margin-top: 30px;
   margin-left: 100px;
-  margin-right: 200px;
+  margin-right: 170px;
 }
 
 .reason {
@@ -187,18 +187,24 @@ h2 {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 30px;
-  margin-left: 50px;
+  margin-left: 20px;
   padding: 20px;
-  height: 500px;
+  padding-right: 20px;
+  height: 550px;
   border: 1px solid black;
-  background: linear-gradient(135deg, rgba(0, 12, 104, 0.6), rgba(103, 0, 62, 0.8));
+  background: linear-gradient(135deg, rgba(25, 34, 100, 0.6)35%, rgba(103, 0, 62, 0.8));
 }
 
 .reason h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  margin-top: 10px;   
+  margin-top: 10px;
   font-weight: bolder;
+}
+
+.reason p {
+  font-size: 1.2rem;
+  color: rgb(168, 168, 168);
 }
 
 .quest {
