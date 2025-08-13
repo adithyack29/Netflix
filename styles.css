@@ -242,8 +242,9 @@ h2 {
 
 
 footer {
-  color: white;
-  padding: 25px 35px;
+  color: rgb(148, 148, 148);
+  padding: 25px 30px;
+  margin-left: 30px;
 }
 
 .footer {
@@ -252,7 +253,7 @@ footer {
 
 .call {
   text-decoration: underline;
-  color: white;
+  color: rgb(148, 148, 148);
 }
 
 .mainfoot {
@@ -270,7 +271,20 @@ footer {
 }
 
 .foot a {
-  color: white;
+  color: rgb(148, 148, 148);
+}
+
+.last {
+  margin-top: 60px;
+  font-size: 0.8rem;
+}
+
+.last p {
+  margin-bottom: 30px;
+}
+
+.last a {
+  text-decoration: underline rgb(69, 69, 255);
 }
 
 @media (max-width: 768px) {
